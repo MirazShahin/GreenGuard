@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GreenGuard.Views.VolunteerHistoryPage"
+             BackgroundColor="#1E1E1E"
+             Title="My History">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Label Text="📜 Volunteer History"
+                   FontSize="26"
+                   TextColor="LightGreen"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+            <!-- Updates History -->
+            <Label Text="🌱 Tree Updates"
+                   FontSize="20"
+                   TextColor="Orange"
+                   FontAttributes="Bold"
+                   Margin="0,10,0,0"/>
+            <CollectionView x:Name="UpdatesCollectionView" HeightRequest="200">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BackgroundColor="#2A2A2A" CornerRadius="10" Padding="10" Margin="5">
+                            <VerticalStackLayout>
+                                <Label Text="{Binding Zone}" FontSize="16" TextColor="LightGreen"/>
+                                <Label Text="{Binding TreeType}" FontSize="14" TextColor="White"/>
+                                <Label Text="{Binding Status}" FontSize="14" TextColor="Orange"/>
+                                <Label Text="{Binding Date}" FontSize="12" TextColor="Gray" HorizontalOptions="End"/>
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- Requests History -->
+            <Label Text="📩 Tree Requests"
+                   FontSize="20"
+                   TextColor="Orange"
+                   FontAttributes="Bold"
+                   Margin="0,10,0,0"/>
+            <CollectionView x:Name="RequestsCollectionView" HeightRequest="200">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BackgroundColor="#2A2A2A" CornerRadius="10" Padding="10" Margin="5">
+                            <VerticalStackLayout>
+                                <Label Text="{Binding Zone}" FontSize="16" TextColor="LightBlue"/>
+                                <Label Text="{Binding TreeType}" FontSize="14" TextColor="White"/>
+                                <Label Text="{Binding QuantityDisplay}" FontSize="14" TextColor="Orange"/>
+                                <Label Text="{Binding Purpose}" FontSize="14" TextColor="Gray"/>
+                                <Label Text="{Binding Date}" FontSize="12" TextColor="Gray" HorizontalOptions="End"/>
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- Back Button -->
+            <Button Text="Back"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnBackClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

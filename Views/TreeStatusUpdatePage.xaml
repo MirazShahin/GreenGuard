@@ -1,0 +1,72 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             x:Class="GreenGuard.Views.TreeStatusUpdatePage"
+             BackgroundColor="#1E1E1E"
+             Title="Tree Status Update">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Label Text="🌳 Tree Status Update"
+                   FontSize="26"
+                   TextColor="LightGreen"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+            <!-- Zone -->
+            <Entry x:Name="ZoneEntry"
+                   Placeholder="Enter Zone / Area"
+                   PlaceholderColor="Gray"
+                   TextColor="White"
+                   BackgroundColor="#2A2A2A"/>
+
+            <!-- Total Trees -->
+            <Entry x:Name="TotalTreesEntry"
+                   Placeholder="Total Trees in this Zone"
+                   Keyboard="Numeric"
+                   PlaceholderColor="Gray"
+                   TextColor="White"
+                   BackgroundColor="#2A2A2A"/>
+
+            <!-- Healthy Trees -->
+            <Entry x:Name="HealthyTreesEntry"
+                   Placeholder="Number of Healthy Trees"
+                   Keyboard="Numeric"
+                   PlaceholderColor="Gray"
+                   TextColor="White"
+                   BackgroundColor="#2A2A2A"/>
+
+            <!-- Unhealthy Trees -->
+            <Entry x:Name="UnhealthyTreesEntry"
+                   Placeholder="Number of Unhealthy Trees"
+                   Keyboard="Numeric"
+                   PlaceholderColor="Gray"
+                   TextColor="White"
+                   BackgroundColor="#2A2A2A"/>
+
+            <!-- Update Date -->
+            <DatePicker x:Name="StatusDatePicker"
+                        TextColor="White"
+                        BackgroundColor="#2A2A2A"
+                        Date="{x:Static sys:DateTime.Now}">
+                <DatePicker.Format>dd MMM yyyy</DatePicker.Format>
+            </DatePicker>
+
+            <!-- Buttons -->
+            <Button Text="✅ Submit Status"
+                    BackgroundColor="Teal"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnSubmitClicked"/>
+
+            <Button Text="Cancel"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnCancelClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

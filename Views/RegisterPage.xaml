@@ -1,0 +1,91 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GreenGuard.Views.RegisterPage"
+             BackgroundColor="#1E1E1E"
+             Title="Register">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20">
+
+            <Label Text="Create Account"
+                   FontSize="32"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="White"
+                   Margin="0,20,0,10"/>
+
+            <Frame CornerRadius="10" Padding="10" HasShadow="False"
+                   BorderColor="Gray" BackgroundColor="#2A2A2A">
+                <Entry x:Name="NameEntry"
+                       Placeholder="Full Name"
+                       TextColor="White"
+                       PlaceholderColor="LightGray"
+                       BackgroundColor="Transparent"/>
+            </Frame>
+            <Frame CornerRadius="10" Padding="10" HasShadow="False"
+                   BorderColor="Gray" BackgroundColor="#2A2A2A">
+                <Entry x:Name="UsernameEntry"
+                        Placeholder="Username"
+                        TextColor="White"
+                        PlaceholderColor="LightGray"
+                        BackgroundColor="Transparent"/>
+            </Frame>
+            <Frame CornerRadius="10" Padding="10" HasShadow="False"
+                   BorderColor="Gray" BackgroundColor="#2A2A2A">
+                <Entry x:Name="EmailEntry"
+                       Placeholder="Email Address"
+                       Keyboard="Email"
+                       TextColor="White"
+                       PlaceholderColor="LightGray"
+                       BackgroundColor="Transparent"/>
+            </Frame>
+
+            <Frame CornerRadius="10" Padding="10" HasShadow="False"
+                   BorderColor="Gray" BackgroundColor="#2A2A2A">
+                <Entry x:Name="PasswordEntry"
+                       Placeholder="Password"
+                       IsPassword="True"
+                       TextColor="White"
+                       PlaceholderColor="LightGray"
+                       BackgroundColor="Transparent"/>
+            </Frame>
+
+            <Frame CornerRadius="10" Padding="10" HasShadow="False"
+                   BorderColor="Gray" BackgroundColor="#2A2A2A">
+                <Entry x:Name="ConfirmPasswordEntry"
+                       Placeholder="Confirm Password"
+                       IsPassword="True"
+                       TextColor="White"
+                       PlaceholderColor="LightGray"
+                       BackgroundColor="Transparent"/>
+            </Frame>
+
+            <Frame CornerRadius="10" Padding="5" HasShadow="False"
+                   BorderColor="Gray" BackgroundColor="white">
+                <Picker x:Name="UserTypePicker" Title="Select User Type" TextColor="Black">
+                    <Picker.Items>
+                        <x:String>Admin</x:String>
+                        <x:String>Leader</x:String>
+                        <x:String>Volunteer</x:String> 
+                    </Picker.Items>
+                </Picker>
+            </Frame>
+
+            <Button Text="Register"
+                    BackgroundColor="#FF3366"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    FontAttributes="Bold"
+                    Clicked="OnRegisterClicked"/>
+
+            <Button Text="Back to Login"
+                    BackgroundColor="#444"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnBackClicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

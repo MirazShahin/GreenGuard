@@ -1,0 +1,117 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GreenGuard.Views.ZoneManagementPage"
+             BackgroundColor="#1E1E1E"
+             Title="Manage Zones">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Label Text="🗺 Zone Management"
+                   FontSize="26"
+                   TextColor="LightGreen"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+            <!-- Search -->
+            <SearchBar x:Name="ZoneSearchBar"
+                       Placeholder="Search zones..."
+                       TextChanged="OnSearchTextChanged"
+                       TextColor="White"
+                       PlaceholderColor="Gray"
+                       BackgroundColor="#2A2A2A"/>
+
+            <!-- Filter -->
+            <Picker x:Name="ZoneTypeFilterPicker"
+                    Title="Filter by Type"
+                    SelectedIndexChanged="OnFilterChanged"
+                    TextColor="White"
+                    BackgroundColor="#2A2A2A">
+                <Picker.Items>
+                    <x:String>All</x:String>
+                    <x:String>Govt</x:String>
+                    <x:String>Owner</x:String>
+                    <x:String>Public</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <!-- Zone List -->
+            <CollectionView x:Name="ZoneCollectionView">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BackgroundColor="#2A2A2A"
+                               CornerRadius="10"
+                               Padding="10"
+                               Margin="5">
+                            <VerticalStackLayout>
+                                <Label Text="{Binding ZoneName}"
+                                       FontSize="18"
+                                       TextColor="White"
+                                       FontAttributes="Bold"/>
+                                <Label Text="{Binding ZoneTypeDisplay}"
+                                       FontSize="14"
+                                       TextColor="LightBlue"/>
+                                <Label Text="{Binding LeaderNameDisplay}"
+                                       FontSize="14"
+                                       TextColor="LightGreen"/>
+                                <Label Text="{Binding PermissionStatus}"
+                                       FontSize="14"
+                                       TextColor="Orange"/>
+
+                                <HorizontalStackLayout Spacing="10" Margin="0,10,0,0">
+                                    <Button Text="Edit"
+                                            BackgroundColor="DodgerBlue"
+                                            TextColor="White"
+                                            CornerRadius="20"
+                                            HeightRequest="40"
+                                            CommandParameter="{Binding .}"
+                                            Clicked="OnEditZoneClicked"/>
+                                    <Button Text="Delete"
+                                            BackgroundColor="Red"
+                                            TextColor="White"
+                                            CornerRadius="20"
+                                            HeightRequest="40"
+                                            CommandParameter="{Binding .}"
+                                            Clicked="OnDeleteZoneClicked"/>
+                                </HorizontalStackLayout>
+
+                                <HorizontalStackLayout Spacing="10" Margin="0,5,0,0">
+                                    <Button Text="Change Leader"
+                                            BackgroundColor="Teal"
+                                            TextColor="White"
+                                            CornerRadius="20"
+                                            HeightRequest="40"
+                                            CommandParameter="{Binding .}"
+                                            Clicked="OnChangeLeaderClicked"/>
+                                    <Button Text="Request Permission"
+                                            BackgroundColor="DarkOrange"
+                                            TextColor="White"
+                                            CornerRadius="20"
+                                            HeightRequest="40"
+                                            CommandParameter="{Binding .}"
+                                            Clicked="OnRequestPermissionClicked"/>
+                                </HorizontalStackLayout>
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- Add Zone -->
+            <Button Text="➕ Add Zone"
+                    BackgroundColor="Green"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnAddZoneClicked"/>
+
+            <!-- Back -->
+            <Button Text="Back"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnBackClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

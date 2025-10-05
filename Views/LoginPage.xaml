@@ -1,0 +1,96 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GreenGuard.Views.LoginPage"
+             BackgroundColor="Black"
+             Title="Login">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="25">
+
+            <!-- Tabs -->
+            <HorizontalStackLayout>
+                <Label Text="Login"
+                       FontSize="28"
+                       FontAttributes="Bold"
+                       TextColor="White"
+                       HorizontalOptions="Start"/>
+                <Label Text="Signup"
+                       FontSize="28"
+                       TextColor="Gray"
+                       HorizontalOptions="End"
+                       Margin="20,0,0,0">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnSignupTapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </HorizontalStackLayout>
+
+            <!-- Role Picker (without Guest) -->
+            <Picker x:Name="RolePicker"
+                    Title="Login As"
+                    TextColor="White"
+                    TitleColor="Gray"
+                    BackgroundColor="#2A2A2A">
+                <Picker.Items>
+                    <x:String>Admin</x:String>
+                    <x:String>Leader</x:String>
+                    <x:String>Volunteer</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <!-- Email -->
+            <VerticalStackLayout>
+                <Label Text="Email or Username"
+                       TextColor="#FF007F"
+                       FontSize="14"/>
+                <Entry x:Name="EmailEntry"
+                       Placeholder="Enter your email or username"
+                       TextColor="White"
+                       PlaceholderColor="Gray"
+                       BackgroundColor="Transparent"/>
+            </VerticalStackLayout>
+
+            <!-- Password -->
+            <VerticalStackLayout>
+                <Label Text="Password"
+                       TextColor="#FF007F"
+                       FontSize="14"/>
+                <Entry x:Name="PasswordEntry"
+                       Placeholder="Enter your password"
+                       IsPassword="True"
+                       TextColor="White"
+                       PlaceholderColor="Gray"
+                       BackgroundColor="Transparent"/>
+                <Label Text="Forgot email/password?"
+                       FontSize="12"
+                       TextColor="Gray"
+                       HorizontalOptions="End"
+                       Margin="0,5,0,0">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnForgotPasswordTapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </VerticalStackLayout>
+
+            <!-- Submit Button -->
+            <Button Text="Login"
+                    FontSize="18"
+                    BackgroundColor="#FF007F"
+                    TextColor="White"
+                    CornerRadius="45"
+                    HeightRequest="40"
+                    WidthRequest="100"
+                    HorizontalOptions="End"
+                    Clicked="OnLoginClicked"/>
+
+            <!-- Continue as Guest -->
+            <Button Text="Continue as Guest"
+                    BackgroundColor="#2A2A2A"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Margin="0,20,0,0"
+                    Clicked="OnGuestClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

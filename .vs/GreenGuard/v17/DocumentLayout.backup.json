@@ -1,0 +1,1470 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\treerequestpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\treerequestpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\treerequestpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\treerequestpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\plantationupdatepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\plantationupdatepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\plantationupdatepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\plantationupdatepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\newmessagepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\newmessagepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\leadermessagespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\leadermessagespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\volunteerdashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\volunteerdashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\newmessagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\newmessagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\messagespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\messagespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\volunteerdashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\volunteerdashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\treerequirementupdatepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\treerequirementupdatepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\treerequirementupdatepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\treerequirementupdatepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\volunteerhistorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\volunteerhistorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\volunteerhistorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\volunteerhistorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\plantationupdatepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\plantationupdatepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\treerequestpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\treerequestpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\volunteermanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\volunteermanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\treestatusupdatepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\treestatusupdatepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\treestatusupdatepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\treestatusupdatepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\leaderdashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\leaderdashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\leaderdashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\leaderdashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\leadermessagespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\leadermessagespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\messagespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\messagespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\admindashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\admindashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\admindashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\admindashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\models\\notificationmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:models\\notificationmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\newmessagepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\newmessagepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\messagespage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\messagespage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\leaderreceivedpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\leaderreceivedpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\volunteerreceivedpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\volunteerreceivedpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\volunteerreceivedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\volunteerreceivedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\greenguard.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:greenguard.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\adminreceivedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\adminreceivedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\adminreceivedpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\adminreceivedpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\leaderreceivedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\leaderreceivedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\leaderreceivedpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\leaderreceivedpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\adminreceivedpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\adminreceivedpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\leadermessagespage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\leadermessagespage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\validateupdatespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\validateupdatespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\validateupdatespage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\validateupdatespage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\leaderboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\leaderboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\leaderboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\leaderboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\reportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\reportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\notificationspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\notificationspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\notificationspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\notificationspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\notificationspage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\notificationspage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\reportpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\reportpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\zonemanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\zonemanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\zonemanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\zonemanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\permissionrequestspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\permissionrequestspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\permissionrequestspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\permissionrequestspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\leadermanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\leadermanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\volunteermanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\volunteermanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\leadermanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\leadermanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\volunteermanagementpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\volunteermanagementpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\inventorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\inventorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\inventorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\inventorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\inventorypage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\inventorypage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\addtreepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\addtreepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\salessummarypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\salessummarypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\salessummarypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\salessummarypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\permissionrequestspage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\permissionrequestspage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\leadermanagementpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\leadermanagementpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\zonemanagementpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\zonemanagementpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\treeanalysispage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\treeanalysispage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\treeanalysispage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\treeanalysispage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\updatetreepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\updatetreepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\updatetreepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\updatetreepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\addtreepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\addtreepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\guestdashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\guestdashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\buytreepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\buytreepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\buytreepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\buytreepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\guestdashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\guestdashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\treedetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\treedetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\treedetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\treedetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\guestdashboard.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\guestdashboard.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shahin\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\9.0.82\\buildTransitive\\netstandard2.0\\Microsoft.Maui.Controls.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\leaderboardpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\leaderboardpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\registerpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\registerpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\volunteerdashboard.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\volunteerdashboard.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\loginpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\loginpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\treedetailspage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\treedetailspage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\reportpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\reportpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\admindashboard.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\admindashboard.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|c:\\users\\shahin\\source\\repos\\greenguard\\views\\leaderdashboard.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9DA9A90-F04B-4BC5-A853-B1FA3FDF5C55}|GreenGuard.csproj|solutionrelative:views\\leaderdashboard.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TreeRequestPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeRequestPage.xaml",
+              "RelativeDocumentMoniker": "Views\\TreeRequestPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeRequestPage.xaml",
+              "RelativeToolTip": "Views\\TreeRequestPage.xaml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAkwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T14:30:44.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlantationUpdatePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\PlantationUpdatePage.xaml",
+              "RelativeDocumentMoniker": "Views\\PlantationUpdatePage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\PlantationUpdatePage.xaml",
+              "RelativeToolTip": "Views\\PlantationUpdatePage.xaml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAkwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T13:48:03.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NewMessagePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\NewMessagePage.xaml",
+              "RelativeDocumentMoniker": "Views\\NewMessagePage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\NewMessagePage.xaml",
+              "RelativeToolTip": "Views\\NewMessagePage.xaml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-01T16:20:38.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NewMessagePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\NewMessagePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\NewMessagePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\NewMessagePage.xaml.cs",
+              "RelativeToolTip": "Views\\NewMessagePage.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowC4AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T16:17:39.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LeaderMessagesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderMessagesPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LeaderMessagesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderMessagesPage.xaml.cs",
+              "RelativeToolTip": "Views\\LeaderMessagesPage.xaml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwD0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:50:04.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MessagesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\MessagesPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MessagesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\MessagesPage.xaml.cs",
+              "RelativeToolTip": "Views\\MessagesPage.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA0wBAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T16:14:06.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TreeRequestPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeRequestPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TreeRequestPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeRequestPage.xaml.cs",
+              "RelativeToolTip": "Views\\TreeRequestPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T07:24:37.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VolunteerDashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\VolunteerDashboard.xaml",
+              "RelativeDocumentMoniker": "Views\\VolunteerDashboard.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\VolunteerDashboard.xaml",
+              "RelativeToolTip": "Views\\VolunteerDashboard.xaml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-27T15:42:38.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlantationUpdatePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\PlantationUpdatePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\PlantationUpdatePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\PlantationUpdatePage.xaml.cs",
+              "RelativeToolTip": "Views\\PlantationUpdatePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T07:16:29.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VolunteerDashboard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\VolunteerDashboard.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\VolunteerDashboard.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\VolunteerDashboard.xaml.cs",
+              "RelativeToolTip": "Views\\VolunteerDashboard.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwCIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:39:04.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "Views\\LoginPage.xaml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-27T15:36:37.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "Views\\RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\RegisterPage.xaml",
+              "RelativeToolTip": "Views\\RegisterPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-27T15:59:01.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TreeRequirementUpdatePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeRequirementUpdatePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TreeRequirementUpdatePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeRequirementUpdatePage.xaml.cs",
+              "RelativeToolTip": "Views\\TreeRequirementUpdatePage.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvxoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T07:22:06.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VolunteerHistoryPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\VolunteerHistoryPage.xaml",
+              "RelativeDocumentMoniker": "Views\\VolunteerHistoryPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\VolunteerHistoryPage.xaml",
+              "RelativeToolTip": "Views\\VolunteerHistoryPage.xaml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T07:27:16.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VolunteerHistoryPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\VolunteerHistoryPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\VolunteerHistoryPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\VolunteerHistoryPage.xaml.cs",
+              "RelativeToolTip": "Views\\VolunteerHistoryPage.xaml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAzwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T07:27:08.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PlantationUpdatePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\PlantationUpdatePage.xaml",
+              "RelativeDocumentMoniker": "Views\\PlantationUpdatePage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\PlantationUpdatePage.xaml",
+              "RelativeToolTip": "Views\\PlantationUpdatePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T07:34:03.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TreeRequirementUpdatePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeRequirementUpdatePage.xaml",
+              "RelativeDocumentMoniker": "Views\\TreeRequirementUpdatePage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeRequirementUpdatePage.xaml",
+              "RelativeToolTip": "Views\\TreeRequirementUpdatePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T07:37:31.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TreeRequestPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeRequestPage.xaml",
+              "RelativeDocumentMoniker": "Views\\TreeRequestPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeRequestPage.xaml",
+              "RelativeToolTip": "Views\\TreeRequestPage.xaml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAkwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T07:34:31.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VolunteerManagementPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\VolunteerManagementPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\VolunteerManagementPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\VolunteerManagementPage.xaml.cs",
+              "RelativeToolTip": "Views\\VolunteerManagementPage.xaml.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAwIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T06:42:39.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TreeStatusUpdatePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeStatusUpdatePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TreeStatusUpdatePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeStatusUpdatePage.xaml.cs",
+              "RelativeToolTip": "Views\\TreeStatusUpdatePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T07:19:19.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TreeStatusUpdatePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeStatusUpdatePage.xaml",
+              "RelativeDocumentMoniker": "Views\\TreeStatusUpdatePage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeStatusUpdatePage.xaml",
+              "RelativeToolTip": "Views\\TreeStatusUpdatePage.xaml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAYwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T07:19:27.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LeaderDashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderDashboard.xaml",
+              "RelativeDocumentMoniker": "Views\\LeaderDashboard.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderDashboard.xaml",
+              "RelativeToolTip": "Views\\LeaderDashboard.xaml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-27T15:31:10.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LeaderDashboard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderDashboard.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LeaderDashboard.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderDashboard.xaml.cs",
+              "RelativeToolTip": "Views\\LeaderDashboard.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:39:34.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LeaderMessagesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderMessagesPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LeaderMessagesPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderMessagesPage.xaml",
+              "RelativeToolTip": "Views\\LeaderMessagesPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T07:03:55.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MessagesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\MessagesPage.xaml",
+              "RelativeDocumentMoniker": "Views\\MessagesPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\MessagesPage.xaml",
+              "RelativeToolTip": "Views\\MessagesPage.xaml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAkwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-01T16:17:08.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdminDashboard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\AdminDashboard.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AdminDashboard.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\AdminDashboard.xaml.cs",
+              "RelativeToolTip": "Views\\AdminDashboard.xaml.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAIwEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:39:53.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AdminDashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\AdminDashboard.xaml",
+              "RelativeDocumentMoniker": "Views\\AdminDashboard.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\AdminDashboard.xaml",
+              "RelativeToolTip": "Views\\AdminDashboard.xaml",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-27T14:50:47.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "NotificationMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Models\\NotificationMessage.cs",
+              "RelativeDocumentMoniker": "Models\\NotificationMessage.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Models\\NotificationMessage.cs",
+              "RelativeToolTip": "Models\\NotificationMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T14:38:35.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LeaderReceivedPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderReceivedPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LeaderReceivedPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderReceivedPage.xaml",
+              "RelativeToolTip": "Views\\LeaderReceivedPage.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T15:05:44.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AdminReceivedPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\AdminReceivedPage.xaml",
+              "RelativeDocumentMoniker": "Views\\AdminReceivedPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\AdminReceivedPage.xaml",
+              "RelativeToolTip": "Views\\AdminReceivedPage.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T15:05:55.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MessagesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\MessagesPage.xaml",
+              "RelativeDocumentMoniker": "Views\\MessagesPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\MessagesPage.xaml",
+              "RelativeToolTip": "Views\\MessagesPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-01T16:16:47.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "NewMessagePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\NewMessagePage.xaml",
+              "RelativeDocumentMoniker": "Views\\NewMessagePage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\NewMessagePage.xaml",
+              "RelativeToolTip": "Views\\NewMessagePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-01T16:20:17.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "VolunteerReceivedPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\VolunteerReceivedPage.xaml",
+              "RelativeDocumentMoniker": "Views\\VolunteerReceivedPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\VolunteerReceivedPage.xaml",
+              "RelativeToolTip": "Views\\VolunteerReceivedPage.xaml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T15:05:01.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "VolunteerReceivedPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\VolunteerReceivedPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\VolunteerReceivedPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\VolunteerReceivedPage.xaml.cs",
+              "RelativeToolTip": "Views\\VolunteerReceivedPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T14:41:52.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AdminReceivedPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\AdminReceivedPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AdminReceivedPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\AdminReceivedPage.xaml.cs",
+              "RelativeToolTip": "Views\\AdminReceivedPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T14:08:59.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GreenGuard",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\GreenGuard.csproj",
+              "RelativeDocumentMoniker": "GreenGuard.csproj",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\GreenGuard.csproj",
+              "RelativeToolTip": "GreenGuard.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-29T05:29:41.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AdminReceivedPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\AdminReceivedPage.xaml",
+              "RelativeDocumentMoniker": "Views\\AdminReceivedPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\AdminReceivedPage.xaml",
+              "RelativeToolTip": "Views\\AdminReceivedPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T14:39:34.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LeaderReceivedPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderReceivedPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LeaderReceivedPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderReceivedPage.xaml",
+              "RelativeToolTip": "Views\\LeaderReceivedPage.xaml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAkwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T14:40:44.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LeaderReceivedPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderReceivedPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LeaderReceivedPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderReceivedPage.xaml.cs",
+              "RelativeToolTip": "Views\\LeaderReceivedPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T14:10:18.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "LeaderMessagesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderMessagesPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LeaderMessagesPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderMessagesPage.xaml",
+              "RelativeToolTip": "Views\\LeaderMessagesPage.xaml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwDYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T14:03:29.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ReportPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\ReportPage.xaml",
+              "RelativeDocumentMoniker": "Views\\ReportPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\ReportPage.xaml",
+              "RelativeToolTip": "Views\\ReportPage.xaml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-27T15:42:45.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ValidateUpdatesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\ValidateUpdatesPage.xaml",
+              "RelativeDocumentMoniker": "Views\\ValidateUpdatesPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\ValidateUpdatesPage.xaml",
+              "RelativeToolTip": "Views\\ValidateUpdatesPage.xaml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAkwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T14:01:24.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "LeaderboardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderboardPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LeaderboardPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderboardPage.xaml",
+              "RelativeToolTip": "Views\\LeaderboardPage.xaml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-27T16:02:53.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ValidateUpdatesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\ValidateUpdatesPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ValidateUpdatesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\ValidateUpdatesPage.xaml.cs",
+              "RelativeToolTip": "Views\\ValidateUpdatesPage.xaml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T08:02:37.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ReportPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\ReportPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ReportPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\ReportPage.xaml.cs",
+              "RelativeToolTip": "Views\\ReportPage.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:40:32.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LeaderboardPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderboardPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LeaderboardPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderboardPage.xaml.cs",
+              "RelativeToolTip": "Views\\LeaderboardPage.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:40:52.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "NotificationsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\NotificationsPage.xaml",
+              "RelativeDocumentMoniker": "Views\\NotificationsPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\NotificationsPage.xaml",
+              "RelativeToolTip": "Views\\NotificationsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T08:05:26.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "NotificationsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\NotificationsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\NotificationsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\NotificationsPage.xaml.cs",
+              "RelativeToolTip": "Views\\NotificationsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T06:16:35.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "NotificationsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\NotificationsPage.xaml",
+              "RelativeDocumentMoniker": "Views\\NotificationsPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\NotificationsPage.xaml",
+              "RelativeToolTip": "Views\\NotificationsPage.xaml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAkwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T08:08:29.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ZoneManagementPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\ZoneManagementPage.xaml",
+              "RelativeDocumentMoniker": "Views\\ZoneManagementPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\ZoneManagementPage.xaml",
+              "RelativeToolTip": "Views\\ZoneManagementPage.xaml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAYwG0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T06:49:54.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "PermissionRequestsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\PermissionRequestsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\PermissionRequestsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\PermissionRequestsPage.xaml.cs",
+              "RelativeToolTip": "Views\\PermissionRequestsPage.xaml.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAgwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T06:50:25.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "PermissionRequestsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\PermissionRequestsPage.xaml",
+              "RelativeDocumentMoniker": "Views\\PermissionRequestsPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\PermissionRequestsPage.xaml",
+              "RelativeToolTip": "Views\\PermissionRequestsPage.xaml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAIwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T07:55:40.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "LeaderManagementPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderManagementPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LeaderManagementPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderManagementPage.xaml.cs",
+              "RelativeToolTip": "Views\\LeaderManagementPage.xaml.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAgwIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T06:32:05.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ZoneManagementPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\ZoneManagementPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ZoneManagementPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\ZoneManagementPage.xaml.cs",
+              "RelativeToolTip": "Views\\ZoneManagementPage.xaml.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAQwNgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T06:25:06.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "VolunteerManagementPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\VolunteerManagementPage.xaml",
+              "RelativeDocumentMoniker": "Views\\VolunteerManagementPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\VolunteerManagementPage.xaml",
+              "RelativeToolTip": "Views\\VolunteerManagementPage.xaml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T07:31:54.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "LeaderManagementPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderManagementPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LeaderManagementPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderManagementPage.xaml",
+              "RelativeToolTip": "Views\\LeaderManagementPage.xaml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T06:38:40.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "VolunteerManagementPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\VolunteerManagementPage.xaml",
+              "RelativeDocumentMoniker": "Views\\VolunteerManagementPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\VolunteerManagementPage.xaml",
+              "RelativeToolTip": "Views\\VolunteerManagementPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T07:28:30.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "InventoryPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\InventoryPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\InventoryPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\InventoryPage.xaml.cs",
+              "RelativeToolTip": "Views\\InventoryPage.xaml.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAUwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T05:58:08.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "InventoryPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\InventoryPage.xaml",
+              "RelativeDocumentMoniker": "Views\\InventoryPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\InventoryPage.xaml",
+              "RelativeToolTip": "Views\\InventoryPage.xaml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T07:25:17.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "InventoryPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\InventoryPage.xaml",
+              "RelativeDocumentMoniker": "Views\\InventoryPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\InventoryPage.xaml",
+              "RelativeToolTip": "Views\\InventoryPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T07:23:17.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "AddTreePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\AddTreePage.xaml",
+              "RelativeDocumentMoniker": "Views\\AddTreePage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\AddTreePage.xaml",
+              "RelativeToolTip": "Views\\AddTreePage.xaml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T07:14:09.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "SalesSummaryPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\SalesSummaryPage.xaml",
+              "RelativeDocumentMoniker": "Views\\SalesSummaryPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\SalesSummaryPage.xaml",
+              "RelativeToolTip": "Views\\SalesSummaryPage.xaml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAYwEAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T06:57:04.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "SalesSummaryPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\SalesSummaryPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SalesSummaryPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\SalesSummaryPage.xaml.cs",
+              "RelativeToolTip": "Views\\SalesSummaryPage.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T06:56:56.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "PermissionRequestsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\PermissionRequestsPage.xaml",
+              "RelativeDocumentMoniker": "Views\\PermissionRequestsPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\PermissionRequestsPage.xaml",
+              "RelativeToolTip": "Views\\PermissionRequestsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T06:55:11.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "LeaderManagementPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderManagementPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LeaderManagementPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderManagementPage.xaml",
+              "RelativeToolTip": "Views\\LeaderManagementPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIAwwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T06:36:28.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ZoneManagementPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\ZoneManagementPage.xaml",
+              "RelativeDocumentMoniker": "Views\\ZoneManagementPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\ZoneManagementPage.xaml",
+              "RelativeToolTip": "Views\\ZoneManagementPage.xaml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAvwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T06:28:27.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "TreeAnalysisPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeAnalysisPage.xaml",
+              "RelativeDocumentMoniker": "Views\\TreeAnalysisPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeAnalysisPage.xaml",
+              "RelativeToolTip": "Views\\TreeAnalysisPage.xaml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T06:14:02.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "TreeAnalysisPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeAnalysisPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TreeAnalysisPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeAnalysisPage.xaml.cs",
+              "RelativeToolTip": "Views\\TreeAnalysisPage.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T06:13:54.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:41:20.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwCcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:27:02.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "UpdateTreePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\UpdateTreePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\UpdateTreePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\UpdateTreePage.xaml.cs",
+              "RelativeToolTip": "Views\\UpdateTreePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T05:51:02.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "UpdateTreePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\UpdateTreePage.xaml",
+              "RelativeDocumentMoniker": "Views\\UpdateTreePage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\UpdateTreePage.xaml",
+              "RelativeToolTip": "Views\\UpdateTreePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T05:55:46.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "AddTreePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\AddTreePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AddTreePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\AddTreePage.xaml.cs",
+              "RelativeToolTip": "Views\\AddTreePage.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBkAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T20:05:45.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\RegisterPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "Views\\RegisterPage.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:38:17.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "GuestDashboard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\GuestDashboard.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\GuestDashboard.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\GuestDashboard.xaml.cs",
+              "RelativeToolTip": "Views\\GuestDashboard.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA4wAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:38:44.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "BuyTreePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\BuyTreePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\BuyTreePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\BuyTreePage.xaml.cs",
+              "RelativeToolTip": "Views\\BuyTreePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T19:44:55.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "BuyTreePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\BuyTreePage.xaml",
+              "RelativeDocumentMoniker": "Views\\BuyTreePage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\BuyTreePage.xaml",
+              "RelativeToolTip": "Views\\BuyTreePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-29T19:48:02.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "TreeDetailsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TreeDetailsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeDetailsPage.xaml.cs",
+              "RelativeToolTip": "Views\\TreeDetailsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:40:12.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-27T16:05:52.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "TreeDetailsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeDetailsPage.xaml",
+              "RelativeDocumentMoniker": "Views\\TreeDetailsPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeDetailsPage.xaml",
+              "RelativeToolTip": "Views\\TreeDetailsPage.xaml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-27T15:42:42.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "GuestDashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\GuestDashboard.xaml",
+              "RelativeDocumentMoniker": "Views\\GuestDashboard.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\GuestDashboard.xaml",
+              "RelativeToolTip": "Views\\GuestDashboard.xaml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAwDoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-27T16:54:32.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "GuestDashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\GuestDashboard.xaml",
+              "RelativeDocumentMoniker": "Views\\GuestDashboard.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\GuestDashboard.xaml",
+              "RelativeToolTip": "Views\\GuestDashboard.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-27T15:59:58.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Microsoft.Maui.Controls.targets",
+              "DocumentMoniker": "C:\\Users\\Shahin\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\9.0.82\\buildTransitive\\netstandard2.0\\Microsoft.Maui.Controls.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\9.0.82\\buildTransitive\\netstandard2.0\\Microsoft.Maui.Controls.targets",
+              "ToolTip": "C:\\Users\\Shahin\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\9.0.82\\buildTransitive\\netstandard2.0\\Microsoft.Maui.Controls.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\9.0.82\\buildTransitive\\netstandard2.0\\Microsoft.Maui.Controls.targets",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAswBEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-09-27T15:57:36.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "LeaderboardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderboardPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LeaderboardPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderboardPage.xaml",
+              "RelativeToolTip": "Views\\LeaderboardPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-27T15:43:00.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "Views\\RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\RegisterPage.xaml",
+              "RelativeToolTip": "Views\\RegisterPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-27T15:42:49.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "VolunteerDashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\VolunteerDashboard.xaml",
+              "RelativeDocumentMoniker": "Views\\VolunteerDashboard.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\VolunteerDashboard.xaml",
+              "RelativeToolTip": "Views\\VolunteerDashboard.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-27T15:35:46.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "TreeDetailsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeDetailsPage.xaml",
+              "RelativeDocumentMoniker": "Views\\TreeDetailsPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\TreeDetailsPage.xaml",
+              "RelativeToolTip": "Views\\TreeDetailsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-27T14:54:50.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "Views\\LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-27T14:55:16.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "ReportPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\ReportPage.xaml",
+              "RelativeDocumentMoniker": "Views\\ReportPage.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\ReportPage.xaml",
+              "RelativeToolTip": "Views\\ReportPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-27T14:54:44.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "AdminDashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\AdminDashboard.xaml",
+              "RelativeDocumentMoniker": "Views\\AdminDashboard.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\AdminDashboard.xaml",
+              "RelativeToolTip": "Views\\AdminDashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-27T14:49:56.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "LeaderDashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderDashboard.xaml",
+              "RelativeDocumentMoniker": "Views\\LeaderDashboard.xaml",
+              "ToolTip": "C:\\Users\\Shahin\\source\\repos\\GreenGuard\\Views\\LeaderDashboard.xaml",
+              "RelativeToolTip": "Views\\LeaderDashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-27T14:46:08.67Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

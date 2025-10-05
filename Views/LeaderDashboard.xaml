@@ -1,0 +1,59 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GreenGuard.Views.LeaderDashboard"
+             BackgroundColor="#1E1E1E"
+             Title="Leader Dashboard">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <!-- Header -->
+            <Label Text="👨‍🌾 Leader Dashboard"
+                   FontSize="26"
+                   TextColor="LightGreen"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+            <!-- Validate Volunteer Updates -->
+            <Button Text="✅ Validate Volunteer Updates"
+                    BackgroundColor="Teal"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnValidateClicked"/>
+
+            <!-- Reports -->
+            <Button Text="📊 Generate Reports"
+                    BackgroundColor="Orange"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnReportClicked"/>
+
+            <!-- Volunteer Performance -->
+            <Button Text="🏆 Volunteer Performance"
+                    BackgroundColor="RoyalBlue"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnPerformanceClicked"/>
+
+            <!-- Messages -->
+            <Button Text="📩 Messages"
+                    BackgroundColor="MediumPurple"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnMessagesClicked"/>
+
+            <!-- Logout -->
+            <Button Text="Logout"
+                    BackgroundColor="DarkRed"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnLogoutClicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
