@@ -1,0 +1,89 @@
+# Visual Studio and user-specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.nuproj
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Maui / Xamarin / Android specific
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.apk.idsig
+*.aot
+*.so
+*.keystore
+*.jks
+*.mpack
+*.mab
+*.dsym
+*.xcuserstate
+*.xcuserdatad/
+*.xcworkspace
+*.xcodeproj/
+*.plist
+*.dSYM.zip
+obj/Debug/net*-android/
+obj/Debug/net*-ios/
+obj/Debug/net*-maccatalyst/
+obj/Debug/net*-windows*/
+
+# Windows app packaging
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_appx/
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+*.appxupload
+
+# Logs and databases
+*.log
+*.tmp
+*.db
+*.ldb
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# JetBrains / Rider
+.idea/
+*.iml
+
+# Others
+*.cache
+*.zip
+*.tar.gz
+*.bak
+*.orig
+*.swp
