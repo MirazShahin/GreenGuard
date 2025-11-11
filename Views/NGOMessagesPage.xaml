@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="GreenGuard.Views.NGOMessagesPage"
+    BackgroundColor="#1E1E1E"
+    Title="NGO Messages">
+
+    <!-- ✅ Only one root element (ScrollView) -->
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <!-- Header -->
+            <Label Text="📩 NGO Messaging"
+                   FontSize="26"
+                   TextColor="LightGreen"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <!-- Inbox Section -->
+            <Frame BackgroundColor="#2A2A2A" CornerRadius="14" Padding="16">
+                <VerticalStackLayout>
+                    <Label Text="🗂️ Inbox (From Admin)"
+                           FontSize="18"
+                           TextColor="LightSkyBlue"
+                           FontAttributes="Bold"/>
+                    <CollectionView x:Name="InboxCollectionView" HeightRequest="200">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame BackgroundColor="#333333" CornerRadius="10" Padding="10" Margin="0,5">
+                                    <VerticalStackLayout>
+                                        <Label Text="{Binding Subject}" 
+                                               TextColor="LightGreen" 
+                                               FontSize="16" 
+                                               FontAttributes="Bold"/>
+                                        <Label Text="{Binding Body}" 
+                                               TextColor="White" 
+                                               FontSize="14"/>
+                                        <Label Text="{Binding Time}" 
+                                               TextColor="Gray" 
+                                               FontSize="12" 
+                                               HorizontalOptions="End"/>
+                                    </VerticalStackLayout>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Compose Message Section -->
+            <Frame BackgroundColor="#2A2A2A" CornerRadius="14" Padding="16">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="✉️ Send Message to Admin"
+                           FontSize="18"
+                           TextColor="LightGreen"
+                           FontAttributes="Bold"/>
+
+                    <Entry x:Name="SubjectEntry"
+                           Placeholder="Enter Subject"
+                           PlaceholderColor="Gray"
+                           TextColor="White"
+                           BackgroundColor="#333333"/>
+
+                    <Editor x:Name="BodyEditor"
+                            Placeholder="Enter your message..."
+                            PlaceholderColor="Gray"
+                            TextColor="White"
+                            AutoSize="TextChanges"
+                            HeightRequest="100"
+                            BackgroundColor="#333333"/>
+
+                    <Button Text="Send Message"
+                            BackgroundColor="Teal"
+                            TextColor="White"
+                            CornerRadius="25"
+                            HeightRequest="50"
+                            Clicked="OnSendClicked"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Back Button -->
+            <Button Text="Back"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnBackClicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

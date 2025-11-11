@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="GreenGuard.Views.NGODashboard"
+    BackgroundColor="#1E1E1E"
+    Title="NGO Dashboard">
+
+	<ScrollView>
+		<VerticalStackLayout Padding="20" Spacing="16">
+
+			<Label Text="🏢 NGO Dashboard"
+                   FontSize="26"
+                   TextColor="LightGreen"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+			<!-- Create Plantation Request -->
+			<Frame BackgroundColor="#2A2A2A" CornerRadius="14" Padding="16">
+				<VerticalStackLayout Spacing="8">
+					<Label Text="🌱 Create Plantation Request"
+                           TextColor="White"
+                           FontSize="18"
+                           FontAttributes="Bold" />
+					<Label Text="Propose a new plantation project to the Admin."
+                           TextColor="Gray" FontSize="14" />
+					<Button Text="Create Request"
+                            BackgroundColor="Teal"
+                            TextColor="White"
+                            CornerRadius="25"
+                            HeightRequest="50"
+                            Clicked="OnCreateRequestClicked"/>
+				</VerticalStackLayout>
+			</Frame>
+
+			<!-- Track Requests -->
+			<Frame BackgroundColor="#2A2A2A" CornerRadius="14" Padding="16">
+				<VerticalStackLayout Spacing="8">
+					<Label Text="📋 Track Requests"
+                           TextColor="White"
+                           FontSize="18"
+                           FontAttributes="Bold" />
+					<Label Text="View status of submitted plantation requests."
+                           TextColor="Gray" FontSize="14" />
+					<Button Text="View Requests"
+                            BackgroundColor="MediumPurple"
+                            TextColor="White"
+                            CornerRadius="25"
+                            HeightRequest="50"
+                            Clicked="OnTrackRequestsClicked"/>
+				</VerticalStackLayout>
+			</Frame>
+
+			<!-- Purchase Trees -->
+			<Frame BackgroundColor="#2A2A2A" CornerRadius="14" Padding="16">
+				<VerticalStackLayout Spacing="8">
+					<Label Text="🪴 Purchase Trees"
+                           TextColor="White"
+                           FontSize="18"
+                           FontAttributes="Bold" />
+					<Label Text="Buy or sponsor trees to support plantation zones."
+                           TextColor="Gray" FontSize="14" />
+					<Button Text="Purchase Now"
+                            BackgroundColor="Green"
+                            TextColor="White"
+                            CornerRadius="25"
+                            HeightRequest="50"
+                            Clicked="OnPurchaseClicked" />
+				</VerticalStackLayout>
+			</Frame>
+
+			<!-- Contact Admin -->
+			<Frame BackgroundColor="#2A2A2A" CornerRadius="14" Padding="16">
+				<VerticalStackLayout Spacing="8">
+					<Label Text="📨 Messages with Admin"
+						   TextColor="White"
+						   FontSize="18"
+						   FontAttributes="Bold" />
+					<Label Text="Send or receive updates from Admin."
+						   TextColor="Gray" FontSize="14" />
+					<Button Text="Open Messages"
+							BackgroundColor="Crimson"
+							TextColor="White"
+							CornerRadius="25"
+							HeightRequest="50"
+							Clicked="OnMessagesClicked" />
+				</VerticalStackLayout>
+			</Frame>
+
+            <Button Text="Request Volunteers"
+                    BackgroundColor="MediumPurple"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnRequestVolunteersClicked" />
+			<!-- Logout -->
+			<Button Text="Logout"
+                    BackgroundColor="DarkRed"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnLogoutClicked" />
+		</VerticalStackLayout>
+	</ScrollView>
+</ContentPage>

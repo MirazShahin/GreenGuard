@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GreenGuard.Views.AddZonePage"
+             BackgroundColor="#1E1E1E"
+             Title="Add My Zone">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="16">
+
+            <Label Text="🗺️ Add New Zone for Tree Plantation"
+                   FontSize="24"
+                   TextColor="LightGreen"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <!-- Zone Name -->
+            <Entry x:Name="ZoneNameEntry"
+                   Placeholder="Enter Zone Name (e.g., Mirpur Zone A)"
+                   PlaceholderColor="Gray"
+                   TextColor="White"
+                   BackgroundColor="#2A2A2A" />
+
+            <!-- Location -->
+            <Entry x:Name="LocationEntry"
+                   Placeholder="Enter Location / Address"
+                   PlaceholderColor="Gray"
+                   TextColor="White"
+                   BackgroundColor="#2A2A2A" />
+
+            <!-- Tree Capacity -->
+            <Entry x:Name="TreeCountEntry"
+                   Placeholder="Enter Tree Capacity (e.g., 100)"
+                   Keyboard="Numeric"
+                   PlaceholderColor="Gray"
+                   TextColor="White"
+                   BackgroundColor="#2A2A2A" />
+
+            <!-- Description -->
+            <Editor x:Name="DescriptionEditor"
+                    Placeholder="Write a short description or purpose..."
+                    PlaceholderColor="Gray"
+                    TextColor="White"
+                    BackgroundColor="#2A2A2A"
+                    AutoSize="TextChanges"
+                    HeightRequest="100" />
+
+            <!-- Submit Button -->
+            <Button Text="📩 Submit for Approval"
+                    BackgroundColor="Teal"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnSubmitClicked" />
+
+            <!-- Cancel -->
+            <Button Text="Cancel"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnCancelClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

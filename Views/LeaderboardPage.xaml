@@ -1,0 +1,67 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GreenGuard.Views.LeaderboardPage"
+             BackgroundColor="#1E1E1E"
+             Title="Volunteer Leaderboard">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <!-- Header -->
+            <Label Text="🏆 Volunteer Performance Leaderboard"
+                   FontSize="26"
+                   TextColor="LightGreen"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+            <!-- Leaderboard List -->
+            <CollectionView x:Name="LeaderboardCollectionView">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BackgroundColor="#2A2A2A"
+                               CornerRadius="10"
+                               Padding="10"
+                               Margin="5">
+                            <HorizontalStackLayout Spacing="15">
+
+                                <!-- Rank -->
+                                <Label Text="{Binding Rank}"
+                                       FontSize="18"
+                                       TextColor="{Binding RankColor}"
+                                       FontAttributes="Bold"
+                                       WidthRequest="40"
+                                       HorizontalTextAlignment="Center"/>
+
+                                <!-- Volunteer Info -->
+                                <VerticalStackLayout>
+                                    <Label Text="{Binding VolunteerName}"
+                                           FontSize="18"
+                                           TextColor="White"
+                                           FontAttributes="Bold"/>
+                                    <Label Text="{Binding Zone}"
+                                           FontSize="14"
+                                           TextColor="LightBlue"/>
+                                </VerticalStackLayout>
+
+                                <!-- Points -->
+                                <Label Text="{Binding PointsText}"
+                                       FontSize="18"
+                                       TextColor="Orange"
+                                       FontAttributes="Bold"
+                                       HorizontalOptions="EndAndExpand"/>
+                            </HorizontalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- Back -->
+            <Button Text="Back"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnBackClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

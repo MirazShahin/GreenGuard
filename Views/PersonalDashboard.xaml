@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GreenGuard.Views.PersonalDashboard"
+             BackgroundColor="#1E1E1E"
+             Title="Personal Dashboard">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="16">
+
+            <Label Text="👤 Personal Dashboard"
+                   FontSize="26"
+                   TextColor="LightGreen"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <!-- Add My Zone -->
+            <Frame BackgroundColor="#2A2A2A" CornerRadius="14" Padding="16">
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="🗺️ Add My Zone"
+                           TextColor="White"
+                           FontSize="18"
+                           FontAttributes="Bold" />
+                    <Label Text="Submit your location to Admin for tree plantation approval."
+                           TextColor="Gray" FontSize="14" />
+                    <Button Text="Add Zone"
+                            BackgroundColor="DarkOrange"
+                            TextColor="White"
+                            CornerRadius="25"
+                            HeightRequest="50"
+                            Clicked="OnAddZoneClicked" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Browse Projects -->
+            <Frame BackgroundColor="#2A2A2A" CornerRadius="14" Padding="16">
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="🌱 Explore Plantation Projects"
+                           TextColor="White"
+                           FontSize="18"
+                           FontAttributes="Bold" />
+                    <Label Text="Discover ongoing tree plantation campaigns to support."
+                           TextColor="Gray" FontSize="14" />
+                    <Button Text="Browse Projects"
+                            BackgroundColor="Teal"
+                            TextColor="White"
+                            CornerRadius="25"
+                            HeightRequest="50"
+                            Clicked="OnBrowseClicked" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Purchase Trees -->
+            <Frame BackgroundColor="#2A2A2A" CornerRadius="14" Padding="16">
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="🪴 Purchase Trees"
+                           TextColor="White"
+                           FontSize="18"
+                           FontAttributes="Bold" />
+                    <Label Text="Buy or sponsor trees to support plantation zones."
+                           TextColor="Gray"
+                           FontSize="14" />
+                    <Button Text="Purchase Now"
+                            BackgroundColor="Green"
+                            TextColor="White"
+                            CornerRadius="25"
+                            HeightRequest="50"
+                            Clicked="OnPurchaseClicked" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- My Sponsorships -->
+            <Frame BackgroundColor="#2A2A2A" CornerRadius="14" Padding="16">
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="💰 My Contributions"
+                           TextColor="White"
+                           FontSize="18"
+                           FontAttributes="Bold" />
+                    <Label Text="View trees you have sponsored or donations made."
+                           TextColor="Gray" FontSize="14" />
+                    <Button Text="View History"
+                            BackgroundColor="MediumPurple"
+                            TextColor="White"
+                            CornerRadius="25"
+                            HeightRequest="50"
+                            Clicked="OnHistoryClicked" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Profile -->
+            <Frame BackgroundColor="#2A2A2A" CornerRadius="14" Padding="16">
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="👤 Profile and Settings"
+                           TextColor="White"
+                           FontSize="18"
+                           FontAttributes="Bold" />
+                    <Label Text="Update your personal details or contact preferences."
+                           TextColor="Gray" FontSize="14" />
+                    <Button Text="Edit Profile"
+                            BackgroundColor="DodgerBlue"
+                            TextColor="White"
+                            CornerRadius="25"
+                            HeightRequest="50"
+                            Clicked="OnProfileClicked" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Logout -->
+            <Button Text="Logout"
+                    BackgroundColor="DarkRed"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnLogoutClicked" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="GreenGuard.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:sf="clr-namespace:Syncfusion.Maui.Toolkit.SegmentedControl;assembly=Syncfusion.Maui.Toolkit"
+    xmlns:views="clr-namespace:GreenGuard.Views"
+    xmlns:pages="clr-namespace:GreenGuard.Pages"
+    Shell.FlyoutBehavior="Flyout"
+    Title="GreenGuard">
+
+    <!-- 🌱 MAIN SECTIONS -->
+    <FlyoutItem Title="Dashboard"
+                Icon="{StaticResource IconDashboard}">
+        <ShellContent
+            Title="Dashboard"
+            ContentTemplate="{DataTemplate pages:MainPage}"
+            Route="main" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Projects"
+                Icon="{StaticResource IconProjects}">
+        <ShellContent
+            Title="Projects"
+            ContentTemplate="{DataTemplate pages:ProjectListPage}"
+            Route="projects" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Manage Meta"
+                Icon="{StaticResource IconMeta}">
+        <ShellContent
+            Title="Manage Meta"
+            ContentTemplate="{DataTemplate pages:ManageMetaPage}"
+            Route="manage" />
+    </FlyoutItem>
+
+    <!-- 👨‍🌾 Leader Section (Optional) -->
+    <FlyoutItem Title="Leader Dashboard"
+                Icon="{StaticResource IconLeader}">
+        <ShellContent
+            Title="Leader"
+            ContentTemplate="{DataTemplate views:LeaderDashboard}"
+            Route="leader" />
+    </FlyoutItem>
+
+    <!-- 🙋 Volunteer Section (Optional) -->
+    <FlyoutItem Title="Volunteer Dashboard"
+                Icon="{StaticResource IconVolunteer}">
+        <ShellContent
+            Title="Volunteer"
+            ContentTemplate="{DataTemplate views:VolunteerDashboard}"
+            Route="volunteer" />
+    </FlyoutItem>
+
+
+    <!-- 🌿 FLYOUT FOOTER THEME SWITCH -->
+    <Shell.FlyoutFooter>
+        <Grid Padding="15" BackgroundColor="#2A2A2A">
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="15">
+                <Label Text="Theme:"
+                       TextColor="White"
+                       FontSize="14"
+                       VerticalOptions="Center" />
+                <sf:SfSegmentedControl
+                    x:Name="ThemeSegmentedControl"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    SelectionChanged="SfSegmentedControl_SelectionChanged"
+                    SegmentWidth="40" SegmentHeight="40">
+                    <sf:SfSegmentedControl.ItemsSource>
+                        <x:Array Type="{x:Type sf:SfSegmentItem}">
+                            <sf:SfSegmentItem ImageSource="{StaticResource IconLight}"/>
+                            <sf:SfSegmentItem ImageSource="{StaticResource IconDark}"/>
+                        </x:Array>
+                    </sf:SfSegmentedControl.ItemsSource>
+                </sf:SfSegmentedControl>
+            </HorizontalStackLayout>
+        </Grid>
+    </Shell.FlyoutFooter>
+
+</Shell>

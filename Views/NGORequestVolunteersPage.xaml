@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GreenGuard.Views.NGOVolunteerPage"
+             BackgroundColor="#1E1E1E"
+             Title="Volunteer Request">
+
+	<ScrollView>
+		<VerticalStackLayout Padding="20" Spacing="15">
+
+			<Label Text="🧑‍🤝‍🧑 Request Volunteers"
+                   FontSize="26"
+                   TextColor="LightGreen"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+			<!-- NGO Name -->
+			<Entry x:Name="NGONameEntry"
+                   Placeholder="Enter NGO Name"
+                   PlaceholderColor="Gray"
+                   TextColor="White"
+                   BackgroundColor="#2A2A2A"/>
+
+			<!-- Project Name -->
+			<Entry x:Name="ProjectEntry"
+                   Placeholder="Enter Project Name"
+                   PlaceholderColor="Gray"
+                   TextColor="White"
+                   BackgroundColor="#2A2A2A"/>
+
+			<!-- Zone -->
+			<Entry x:Name="ZoneEntry"
+                   Placeholder="Enter Zone / Location"
+                   PlaceholderColor="Gray"
+                   TextColor="White"
+                   BackgroundColor="#2A2A2A"/>
+
+			<!-- Volunteers Needed -->
+			<Entry x:Name="VolunteersEntry"
+                   Placeholder="Number of Volunteers Needed"
+                   Keyboard="Numeric"
+                   PlaceholderColor="Gray"
+                   TextColor="White"
+                   BackgroundColor="#2A2A2A"/>
+
+			<!-- Message -->
+			<Editor x:Name="MessageEditor"
+                    Placeholder="Additional Details (optional)"
+                    PlaceholderColor="Gray"
+                    TextColor="White"
+                    AutoSize="TextChanges"
+                    BackgroundColor="#2A2A2A"
+                    HeightRequest="120"/>
+
+			<!-- Submit -->
+			<Button Text="📩 Submit Request"
+                    BackgroundColor="Teal"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnSubmitClicked"/>
+
+			<!-- Cancel -->
+			<Button Text="Cancel"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnCancelClicked"/>
+		</VerticalStackLayout>
+	</ScrollView>
+</ContentPage>

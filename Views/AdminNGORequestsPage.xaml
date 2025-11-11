@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="GreenGuard.Views.AdminNGORequestsPage"
+    BackgroundColor="#1E1E1E"
+    Title="NGO Volunteer Requests">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Label Text="📋 Pending NGO Volunteer Requests"
+                   FontSize="24"
+                   TextColor="LightGreen"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <CollectionView x:Name="RequestsCollectionView">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BackgroundColor="#2A2A2A" CornerRadius="12" Padding="15" Margin="0,10">
+                            <VerticalStackLayout Spacing="6">
+                                <Label Text="{Binding Subject}"
+                                       FontSize="18"
+                                       TextColor="LightGreen"
+                                       FontAttributes="Bold"/>
+                                <Label Text="{Binding Body}"
+                                       TextColor="White"
+                                       FontSize="14"/>
+                                <Label Text="{Binding Time}"
+                                       TextColor="Gray"
+                                       FontSize="12"
+                                       HorizontalOptions="End"/>
+                                <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                                    <Button Text="Approve"
+                                            BackgroundColor="Green"
+                                            TextColor="White"
+                                            CornerRadius="20"
+                                            HeightRequest="40"
+                                            WidthRequest="100"
+                                            CommandParameter="{Binding .}"
+                                            Clicked="OnApproveClicked"/>
+                                    <Button Text="Reject"
+                                            BackgroundColor="Crimson"
+                                            TextColor="White"
+                                            CornerRadius="20"
+                                            HeightRequest="40"
+                                            WidthRequest="100"
+                                            CommandParameter="{Binding .}"
+                                            Clicked="OnRejectClicked"/>
+                                </HorizontalStackLayout>
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Button Text="Back"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnBackClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

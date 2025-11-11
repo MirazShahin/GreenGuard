@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GreenGuard.Views.AdminReceivedPage"
+             BackgroundColor="#1E1E1E"
+             Title="Admin Inbox">
+
+	<ScrollView>
+		<VerticalStackLayout Padding="20" Spacing="15">
+			<Label Text="📩 Admin Inbox"
+                   FontSize="26"
+                   TextColor="LightGreen"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+			<CollectionView x:Name="MessagesCollectionView">
+				<CollectionView.ItemTemplate>
+					<DataTemplate>
+						<Frame BackgroundColor="#2A2A2A" CornerRadius="10" Padding="10" Margin="5">
+							<VerticalStackLayout>
+								<Label Text="{Binding Subject}" FontSize="18" TextColor="White" FontAttributes="Bold"/>
+								<Label Text="{Binding From}" FontSize="14" TextColor="LightBlue"/>
+								<Label Text="{Binding Body}" FontSize="14" TextColor="Gray"/>
+								<Label Text="{Binding Time}" FontSize="12" TextColor="Orange" HorizontalOptions="End"/>
+							</VerticalStackLayout>
+						</Frame>
+					</DataTemplate>
+				</CollectionView.ItemTemplate>
+			</CollectionView>
+
+			<Button Text="Back"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnBackClicked"/>
+		</VerticalStackLayout>
+	</ScrollView>
+</ContentPage>

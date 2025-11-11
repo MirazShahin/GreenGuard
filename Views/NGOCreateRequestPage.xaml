@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="GreenGuard.Views.NGOCreateRequestPage"
+    BackgroundColor="#1E1E1E"
+    Title="Create Plantation Request">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="16">
+
+            <Label Text="🌱 New Plantation Request"
+                   FontSize="26"
+                   TextColor="LightGreen"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <Entry x:Name="ZoneNameEntry"
+                   Placeholder="Enter Zone Name (e.g., Dhaka Zone A)"
+                   PlaceholderColor="Gray"
+                   TextColor="White"
+                   BackgroundColor="#2A2A2A" />
+
+            <Entry x:Name="LocationEntry"
+                   Placeholder="Enter Location / Area"
+                   PlaceholderColor="Gray"
+                   TextColor="White"
+                   BackgroundColor="#2A2A2A" />
+
+            <Picker x:Name="TreeTypePicker"
+                    Title="Select Tree Type"
+                    TextColor="White"
+                    TitleColor="Gray"
+                    BackgroundColor="#2A2A2A">
+                <Picker.Items>
+                    <x:String>Mango</x:String>
+                    <x:String>Neem</x:String>
+                    <x:String>Guava</x:String>
+                    <x:String>Jackfruit</x:String>
+                    <x:String>Mixed</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Entry x:Name="TreeCountEntry"
+                   Placeholder="Enter Number of Trees"
+                   Keyboard="Numeric"
+                   PlaceholderColor="Gray"
+                   TextColor="White"
+                   BackgroundColor="#2A2A2A" />
+
+            <Editor x:Name="PurposeEditor"
+                    Placeholder="Purpose or Description"
+                    PlaceholderColor="Gray"
+                    TextColor="White"
+                    AutoSize="TextChanges"
+                    BackgroundColor="#2A2A2A"
+                    HeightRequest="100" />
+
+            <Button Text="Submit Request"
+                    BackgroundColor="Teal"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnSubmitClicked"/>
+
+            <Button Text="Back"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnBackClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

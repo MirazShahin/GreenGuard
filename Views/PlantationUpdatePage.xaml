@@ -1,0 +1,74 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GreenGuard.Views.PlantationUpdatePage"
+             BackgroundColor="#1E1E1E"
+             Title="Plantation Update">
+
+	<ScrollView>
+		<VerticalStackLayout Padding="20" Spacing="15">
+
+			<Label Text="🌱 Plantation Update"
+                   FontSize="26"
+                   TextColor="LightGreen"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+			<!-- Zone -->
+			<Entry x:Name="ZoneEntry"
+                   Placeholder="Enter Zone / Area"
+                   PlaceholderColor="Gray"
+                   TextColor="White"
+                   BackgroundColor="#2A2A2A"/>
+
+			<!-- Tree Species -->
+			<Entry x:Name="SpeciesEntry"
+                   Placeholder="Enter Tree Species"
+                   PlaceholderColor="Gray"
+                   TextColor="White"
+                   BackgroundColor="#2A2A2A"/>
+
+			<!-- Number of Trees -->
+			<Entry x:Name="TreeCountEntry"
+                   Placeholder="Enter Number of Trees Planted"
+                   Keyboard="Numeric"
+                   PlaceholderColor="Gray"
+                   TextColor="White"
+                   BackgroundColor="#2A2A2A"/>
+
+			<!-- Date -->
+			<DatePicker x:Name="PlantationDatePicker"
+                        TextColor="White"
+                        BackgroundColor="#2A2A2A"
+                        Format="dd MMM yyyy"/>
+
+			<!-- Upload Proof -->
+			<Button Text="📷 Upload Proof (Image/Video)"
+                    BackgroundColor="DodgerBlue"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnUploadProofClicked"/>
+
+			<Image x:Name="ProofImage"
+                   IsVisible="False"
+                   HeightRequest="200"
+                   Aspect="AspectFit"/>
+
+			<!-- Buttons -->
+			<Button Text="✅ Submit Update"
+                    BackgroundColor="Teal"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnSubmitClicked"/>
+
+			<Button Text="Cancel"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnCancelClicked"/>
+
+		</VerticalStackLayout>
+	</ScrollView>
+</ContentPage>

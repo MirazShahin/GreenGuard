@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="GreenGuard.Views.PersonalProfilePage"
+    BackgroundColor="#1E1E1E"
+    Title="My Profile and Settings">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <Label Text="👤 My Profile"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   TextColor="LightGreen"
+                   HorizontalOptions="Center"/>
+
+            <Label Text="Update your photo, personal details, and preferences."
+                   FontSize="14"
+                   TextColor="Gray"
+                   HorizontalOptions="Center"/>
+
+            <!-- Profile Fields -->
+            <Frame BackgroundColor="#2A2A2A" CornerRadius="10" Padding="10">
+                <Entry x:Name="NameEntry"
+                       Placeholder="Full Name"
+                       PlaceholderColor="Gray"
+                       TextColor="White"
+                       BackgroundColor="Transparent"/>
+            </Frame>
+
+            <Frame BackgroundColor="#2A2A2A" CornerRadius="10" Padding="10">
+                <Entry x:Name="EmailEntry"
+                       Placeholder="Email Address"
+                       Keyboard="Email"
+                       PlaceholderColor="Gray"
+                       TextColor="White"
+                       BackgroundColor="Transparent"/>
+            </Frame>
+
+            <Frame BackgroundColor="#2A2A2A" CornerRadius="10" Padding="10">
+                <Entry x:Name="PhoneEntry"
+                       Placeholder="Phone Number"
+                       Keyboard="Telephone"
+                       PlaceholderColor="Gray"
+                       TextColor="White"
+                       BackgroundColor="Transparent"/>
+            </Frame>
+
+            <Frame BackgroundColor="#2A2A2A" CornerRadius="10" Padding="10">
+                <Entry x:Name="LocationEntry"
+                       Placeholder="Your Location / Zone"
+                       PlaceholderColor="Gray"
+                       TextColor="White"
+                       BackgroundColor="Transparent"/>
+            </Frame>
+
+            <!-- Notification -->
+            <Frame BackgroundColor="#2A2A2A" CornerRadius="10" Padding="10">
+                <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                    <Label Text="Enable Notifications"
+                           TextColor="White"
+                           VerticalOptions="Center"/>
+                    <Switch x:Name="NotificationSwitch" IsToggled="True"/>
+                </HorizontalStackLayout>
+            </Frame>
+
+            <!-- Theme -->
+            <Frame BackgroundColor="#2A2A2A" CornerRadius="10" Padding="10">
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="App Theme"
+                           TextColor="White"
+                           FontAttributes="Bold"/>
+                    <Picker x:Name="ThemePicker"
+                            Title="Select Theme"
+                            TextColor="White"
+                            TitleColor="Gray"
+                            BackgroundColor="#333333">
+                        <Picker.Items>
+                            <x:String>Light</x:String>
+                            <x:String>Dark</x:String>
+                            <x:String>System Default</x:String>
+                        </Picker.Items>
+                    </Picker>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Buttons -->
+            <Button Text="💾 Save Changes"
+                    BackgroundColor="Teal"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnSaveClicked"/>
+
+            <Button Text="↩ Reset to Default"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnResetClicked"/>
+
+            <Button Text="Back"
+                    BackgroundColor="DarkRed"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnBackClicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

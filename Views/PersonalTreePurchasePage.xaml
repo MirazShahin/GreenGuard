@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="GreenGuard.Views.PersonalTreePurchasePage"
+    BackgroundColor="#1E1E1E"
+    Title="Purchase Trees">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <Label Text="🪴 Purchase Trees"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   TextColor="LightGreen"
+                   HorizontalOptions="Center"/>
+
+            <Label Text="Select a tree type to buy and support plantation efforts."
+                   FontSize="14"
+                   TextColor="Gray"
+                   HorizontalOptions="Center"
+                   Margin="0,0,0,10"/>
+
+            <!-- Tree List -->
+            <CollectionView x:Name="TreeCollectionView"
+                            SelectionMode="Single">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BackgroundColor="#2A2A2A" CornerRadius="14" Padding="16" Margin="0,10">
+                            <VerticalStackLayout Spacing="6">
+                                <Label Text="{Binding Emoji}"
+                                       FontSize="40"
+                                       HorizontalOptions="Center"/>
+                                <Label Text="{Binding Name}"
+                                       FontSize="20"
+                                       TextColor="LightGreen"
+                                       FontAttributes="Bold"
+                                       HorizontalOptions="Center"/>
+                                <Label Text="{Binding Description}"
+                                       FontSize="14"
+                                       TextColor="White"
+                                       HorizontalOptions="Center"/>
+                                <Label Text="{Binding Price, StringFormat='Price: {0} BDT'}"
+                                       FontSize="14"
+                                       TextColor="Orange"
+                                       HorizontalOptions="Center"/>
+                                <Button Text="Select"
+                                        BackgroundColor="Teal"
+                                        TextColor="White"
+                                        CornerRadius="25"
+                                        HeightRequest="45"
+                                        CommandParameter="{Binding .}"
+                                        Clicked="OnSelectTreeClicked"/>
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- Selected Tree Section -->
+            <Frame x:Name="PurchaseFrame" BackgroundColor="#2A2A2A" CornerRadius="14" Padding="16" IsVisible="False">
+                <VerticalStackLayout Spacing="10">
+                    <Label x:Name="SelectedTreeLabel"
+                           FontSize="18"
+                           TextColor="LightGreen"
+                           FontAttributes="Bold"/>
+                    <Entry x:Name="QuantityEntry"
+                           Placeholder="Enter Quantity"
+                           Keyboard="Numeric"
+                           TextColor="White"
+                           PlaceholderColor="Gray"
+                           BackgroundColor="#444444"
+                           TextChanged="OnQuantityChanged"/>
+                    <Label x:Name="TotalPriceLabel"
+                           FontSize="16"
+                           TextColor="Orange"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"/>
+                    <Button Text="Confirm Purchase"
+                            BackgroundColor="Green"
+                            TextColor="White"
+                            CornerRadius="25"
+                            HeightRequest="50"
+                            Clicked="OnConfirmClicked"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Back Button -->
+            <Button Text="Back"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnBackClicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

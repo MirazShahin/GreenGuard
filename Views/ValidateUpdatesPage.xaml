@@ -1,0 +1,68 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GreenGuard.Views.ValidateUpdatesPage"
+             BackgroundColor="#1E1E1E"
+             Title="Validate Updates">
+
+	<ScrollView>
+		<VerticalStackLayout Padding="20" Spacing="15">
+
+			<!-- Header -->
+			<Label Text="✅ Validate Volunteer Updates"
+                   FontSize="26"
+                   TextColor="LightGreen"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+			<!-- Pending Updates -->
+			<CollectionView x:Name="UpdatesCollectionView">
+				<CollectionView.ItemTemplate>
+					<DataTemplate>
+						<Frame BackgroundColor="#2A2A2A"
+                               CornerRadius="10"
+                               Padding="10"
+                               Margin="5">
+							<VerticalStackLayout>
+								<Label Text="{Binding VolunteerName}"
+                                       FontSize="18"
+                                       TextColor="White"
+                                       FontAttributes="Bold"/>
+								<Label Text="{Binding Zone}"
+                                       FontSize="14"
+                                       TextColor="LightBlue"/>
+								<Label Text="{Binding UpdateText}"
+                                       FontSize="16"
+                                       TextColor="Orange"/>
+
+								<HorizontalStackLayout Spacing="10" Margin="0,10,0,0">
+									<Button Text="Approve"
+                                            BackgroundColor="Green"
+                                            TextColor="White"
+                                            CornerRadius="20"
+                                            HeightRequest="40"
+                                            Clicked="OnApproveClicked"
+                                            CommandParameter="{Binding .}"/>
+									<Button Text="Reject"
+                                            BackgroundColor="Red"
+                                            TextColor="White"
+                                            CornerRadius="20"
+                                            HeightRequest="40"
+                                            Clicked="OnRejectClicked"
+                                            CommandParameter="{Binding .}"/>
+								</HorizontalStackLayout>
+							</VerticalStackLayout>
+						</Frame>
+					</DataTemplate>
+				</CollectionView.ItemTemplate>
+			</CollectionView>
+
+			<!-- Back -->
+			<Button Text="Back"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnBackClicked"/>
+		</VerticalStackLayout>
+	</ScrollView>
+</ContentPage>
